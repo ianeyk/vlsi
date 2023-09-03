@@ -13,7 +13,6 @@ N 30 -230 180 -230 {
 lab=A}
 N 30 -230 30 -110 {
 lab=A}
-C {/home/madvlsi/Documents/vlsi/mp1/and/and.sym} 220 -220 0 0 {name=and1}
 C {madvlsi/vsource.sym} 90 -320 0 0 {name=V1
 value=1.8}
 C {madvlsi/vdd.sym} 220 -260 0 0 {name=l1 lab=VDD}
@@ -37,3 +36,4 @@ value=".option wnflag=1
 C {devices/code_shown.sym} 370 -190 0 0 {name=s1 only_toplevel=false value=".tran 0.01n 1u
 .save all"}
 C {devices/lab_pin.sym} 270 -220 2 0 {name=p3 sig_type=std_logic lab=Y}
+C {/home/madvlsi/dev/git/vlsi/mp1/and/and.sym} 220 -220 0 0 {name=x1}
