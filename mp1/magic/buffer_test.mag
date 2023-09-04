@@ -1,0 +1,23 @@
+magic
+tech sky130A
+timestamp 1693801941
+<< locali >>
+rect 0 20 20 40
+rect 390 20 410 40
+<< metal1 >>
+rect 0 210 20 310
+rect 0 55 20 155
+use nmos_test  nmos_test_0
+timestamp 1693800659
+transform 1 0 120 0 1 55
+box -120 -55 85 275
+use nmos_test  nmos_test_1
+timestamp 1693800659
+transform 1 0 325 0 1 55
+box -120 -55 85 275
+<< labels >>
+rlabel locali 410 30 410 30 3 Y
+rlabel metal1 0 105 0 105 7 VN
+rlabel metal1 0 260 0 260 7 VP
+rlabel locali 0 30 0 30 7 A
+<< end >>

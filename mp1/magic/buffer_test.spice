@@ -1,0 +1,12 @@
+* SPICE3 file created from buffer_test.ext - technology: sky130A
+
+.subckt nmos_test A Y VP VN
+X0 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X1 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+.ends
+
+.subckt buffer_test
+Xnmos_test_0 A nmos_test_1/A VP VN nmos_test
+Xnmos_test_1 nmos_test_1/A Y VP VN nmos_test
+.ends
+
