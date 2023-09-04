@@ -1,4 +1,4 @@
-timestamp 1693801941
+timestamp 1693803039
 version 8.3
 tech sky130A
 style ngspice()
@@ -15,6 +15,7 @@ cap "Y" "A" 1.32812
 cap "VP" "A" 0.403403
 cap "VN" "A" 6.4827
 cap "VN" "VP" 11
+cap "nmos_test_0/A" "nmos_test_1/Y" -1.32812
 cap "nmos_test_1/VN" "nmos_test_0/A" -6.4827
 cap "nmos_test_1/Y" "nmos_test_1/VP" 0.477856
 cap "nmos_test_1/A" "nmos_test_1/Y" 11.1907
@@ -24,7 +25,6 @@ cap "nmos_test_0/A" "nmos_test_1/VP" 3.8986
 cap "nmos_test_1/A" "nmos_test_0/A" 15.0818
 cap "nmos_test_1/VN" "nmos_test_1/Y" 0.076687
 cap "nmos_test_1/A" "nmos_test_1/VP" 55.0476
-cap "nmos_test_0/A" "nmos_test_1/Y" -1.32812
 merge "nmos_test_0/VN" "VN" -205.59 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8000 -880 0 0 0 0 0 0 0 0 0 0
 merge "VN" "nmos_test_1/VN"
 merge "nmos_test_1/VN" "VSUBS"
