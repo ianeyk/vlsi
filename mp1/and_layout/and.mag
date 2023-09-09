@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1693859938
+timestamp 1694266725
 << locali >>
 rect 0 60 20 80
 rect 505 60 525 80
@@ -15,7 +15,7 @@ timestamp 1693800659
 transform 1 0 440 0 1 95
 box -120 -55 85 275
 use nand  nand_0
-timestamp 1693857689
+timestamp 1694264607
 transform 1 0 120 0 1 95
 box -120 -95 200 275
 << labels >>
