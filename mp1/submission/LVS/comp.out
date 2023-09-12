@@ -1,0 +1,80 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: nand                            |Circuit 2: nand                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__pfet_01v8:M4 vs. sky130_fd_pr__pfet_01v8:1:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M3 vs. sky130_fd_pr__pfet_01v8:3:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:M2 vs. sky130_fd_pr__nfet_01v8:0:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:M1 vs. sky130_fd_pr__nfet_01v8:2:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: nand                            |Circuit 2: nand                            
+-------------------------------------------|-------------------------------------------
+VP                                         |VP                                         
+Y                                          |Y                                          
+VN                                         |VN                                         
+A                                          |B **Mismatch**                             
+B                                          |A **Mismatch**                             
+---------------------------------------------------------------------------------------
+Cell pin lists for nand and nand altered to match.
+Device classes nand and nand are equivalent.
+
+Subcircuit summary:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__pfet_01v8:M2 vs. sky130_fd_pr__pfet_01v8:0:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |a_n50_n110# **Mismatch**                   
+VP                                         |w_n240_270# **Mismatch**                   
+VN                                         |a_n200_0# **Mismatch**                     
+---------------------------------------------------------------------------------------
+Cell pin lists for inverter and inverter altered to match.
+Device classes inverter and inverter are equivalent.
+
+Subcircuit summary:
+Circuit 1: and_xschem.spice                |Circuit 2: and.spice                       
+-------------------------------------------|-------------------------------------------
+nand (1)                                   |nand (1)                                   
+inverter (1)                               |inverter (1)                               
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes and_xschem.spice and and.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.
+
+The following cells had property errors:
+ nand
+ inverter
