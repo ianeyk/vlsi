@@ -49,12 +49,15 @@ N 270 -240 270 -210 {
 lab=Y}
 N 270 -210 360 -210 {
 lab=Y}
-N 230 -190 260 -190 {}
-N 260 -190 260 -70 {}
-N 230 -70 260 -70 {}
+N 230 -190 260 -190 {
+lab=VN}
+N 260 -190 260 -70 {
+lab=VN}
+N 230 -70 260 -70 {
+lab=VN}
 C {madvlsi/nmos4.sym} 230 -100 0 0 {name=M1
 L=0.15
-W=1
+W=2
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -68,7 +71,7 @@ spiceprefix=X
 }
 C {madvlsi/nmos4.sym} 230 -190 0 0 {name=M2
 L=0.15
-W=1
+W=2
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -82,7 +85,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos4.sym} 150 -280 0 0 {name=M3
 L=0.15
-W=1
+W=2
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -96,7 +99,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos4.sym} 310 -280 0 1 {name=M4
 L=0.15
-W=1
+W=2
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

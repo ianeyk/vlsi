@@ -53,11 +53,11 @@ Subcircuit pins:
 Circuit 1: inverter                        |Circuit 2: inverter                        
 -------------------------------------------|-------------------------------------------
 Y                                          |Y                                          
-A                                          |A                                          
-VP                                         |VP                                         
-VN                                         |VN                                         
+A                                          |a_n50_n110# **Mismatch**                   
+VP                                         |w_n240_270# **Mismatch**                   
+VN                                         |a_n200_0# **Mismatch**                     
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
+Cell pin lists for inverter and inverter altered to match.
 Device classes inverter and inverter are equivalent.
 
 Subcircuit summary:
@@ -65,36 +65,15 @@ Circuit 1: and_xschem.spice                |Circuit 2: and.spice
 -------------------------------------------|-------------------------------------------
 nand (1)                                   |nand (1)                                   
 inverter (1)                               |inverter (1)                               
-(no matching element)                      |c (1)                                      
-Number of devices: 2 **Mismatch**          |Number of devices: 3 **Mismatch**          
-Number of nets: 6 **Mismatch**             |Number of nets: 7 **Mismatch**             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
 ---------------------------------------------------------------------------------------
-NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: and_xschem.spice                |Circuit 2: and.spice                       
-
----------------------------------------------------------------------------------------
-Net: VP                                    |Net: 0                                     
-  nand/VP = 1                              |  c/bottom = 1                             
-  inverter/VP = 1                          |                                           
-                                           |                                           
-(no matching net)                          |Net: nand_0/VP                             
-                                           |  inverter/VP = 1                          
-                                           |  nand/VP = 1                              
-                                           |  c/top = 1                                
----------------------------------------------------------------------------------------
-DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: and_xschem.spice                |Circuit 2: and.spice                       
-
----------------------------------------------------------------------------------------
-(no matching instance)                     |Instance: c:0                              
-                                           |  top = 3                                  
-                                           |  bottom = 1                               
----------------------------------------------------------------------------------------
-Netlists do not match.
+Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
 Device classes and_xschem.spice and and.spice are equivalent.
 
-Final result: Netlists do not match.
+Final result: Circuits match uniquely.
+.
 
 The following cells had property errors:
  nand
