@@ -20,7 +20,7 @@ lab=#net2}
 N 360 -380 380 -380 {
 lab=#net2}
 N 440 -380 520 -380 {
-lab=VDD}
+lab=VP}
 N 580 -380 600 -380 {
 lab=#net3}
 N 600 -380 600 -240 {
@@ -28,9 +28,9 @@ lab=#net3}
 N 580 -240 600 -240 {
 lab=#net3}
 N 960 -240 1000 -240 {
-lab=GND}
+lab=VN}
 N 1000 -240 1040 -240 {
-lab=GND}
+lab=VN}
 N 880 -240 900 -240 {
 lab=Qbar}
 N 880 -380 880 -240 {
@@ -46,9 +46,9 @@ lab=Q}
 N 1100 -240 1120 -240 {
 lab=Q}
 N 770 -410 770 -210 {
-lab=#net5}
+lab=CLK}
 N 770 -210 770 -90 {
-lab=#net5}
+lab=CLK}
 N 410 -410 410 -210 {
 lab=#net3}
 N 550 -410 550 -210 {
@@ -88,67 +88,73 @@ lab=#net1}
 N 480 -240 480 -170 {
 lab=#net1}
 N 300 -500 550 -500 {
-lab=#net2}
-N 550 -500 550 -410 {
-lab=#net2}
+lab=#net3}
 N 300 -380 330 -380 {
-lab=#net3}
+lab=#net2}
 N 330 -450 330 -380 {
-lab=#net3}
-N 330 -450 600 -450 {
-lab=#net3}
-N 600 -450 600 -380 {
-lab=#net3}
+lab=#net2}
 N 930 -210 930 -170 {
 lab=Q}
-N 410 -450 410 -410 {
-lab=#net3}
-N 360 -500 360 -380 {
-lab=#net2}
 N 200 -500 240 -500 {
 lab=D}
 N 200 -380 240 -380 {
 lab=Dbar}
 N 210 -240 240 -240 {
-lab=GND}
+lab=VN}
 N 210 -240 210 -170 {
-lab=GND}
+lab=VN}
 N 550 -500 680 -500 {
-lab=#net2}
-N 680 -500 680 -240 {
-lab=#net2}
-N 680 -240 740 -240 {
-lab=#net2}
-N 600 -380 640 -380 {
 lab=#net3}
-N 640 -380 640 -120 {
+N 680 -500 680 -240 {
+lab=#net3}
+N 680 -240 740 -240 {
 lab=#net3}
 N 640 -120 740 -120 {
-lab=#net3}
+lab=#net2}
 N 710 -380 740 -380 {
-lab=VDD}
+lab=VP}
 N 710 -450 710 -380 {
-lab=VDD}
+lab=VP}
 N 1070 -120 1170 -120 {
 lab=Qbar}
 N 1120 -240 1170 -240 {
 lab=Q}
 N 770 -450 770 -410 {
-lab=#net5}
+lab=CLK}
 N 270 -210 270 -170 {
 lab=CLK}
 N 60 -150 100 -150 {
 lab=CLK}
 N 480 -400 480 -380 {
-lab=VDD}
+lab=VP}
 N 1000 -240 1000 -220 {
-lab=GND}
-N 270 -170 270 -70 {}
-N 60 -70 270 -70 {}
-N 60 -150 60 -70 {}
-N 60 -580 60 -150 {}
-N 60 -580 770 -580 {}
-N 770 -580 770 -450 {}
+lab=VN}
+N 270 -170 270 -70 {
+lab=CLK}
+N 60 -70 270 -70 {
+lab=CLK}
+N 60 -150 60 -70 {
+lab=CLK}
+N 60 -580 60 -150 {
+lab=CLK}
+N 60 -580 770 -580 {
+lab=CLK}
+N 770 -580 770 -450 {
+lab=CLK}
+N 410 -500 410 -410 {
+lab=#net3}
+N 550 -450 550 -410 {
+lab=#net2}
+N 330 -450 550 -450 {
+lab=#net2}
+N 360 -450 360 -380 {
+lab=#net2}
+N 640 -450 640 -120 {
+lab=#net2}
+N 550 -450 640 -450 {
+lab=#net2}
+N 600 -500 600 -380 {
+lab=#net3}
 C {madvlsi/nmos3.sym} 770 -240 3 0 {name=M1
 L=0.15
 W=1
@@ -364,7 +370,11 @@ C {devices/ipin.sym} 200 -380 0 0 {name=p2 lab=Dbar}
 C {devices/opin.sym} 1170 -240 0 0 {name=p5 lab=Q}
 C {devices/opin.sym} 1170 -120 0 0 {name=p6 lab=Qbar}
 C {devices/ipin.sym} 100 -150 2 0 {name=p7 lab=CLK}
-C {madvlsi/gnd.sym} 1000 -220 0 0 {name=l1 lab=GND}
-C {madvlsi/vdd.sym} 480 -400 0 0 {name=l2 lab=VDD}
-C {madvlsi/vdd.sym} 710 -450 0 0 {name=l3 lab=VDD}
-C {madvlsi/gnd.sym} 210 -170 0 0 {name=l4 lab=GND}
+C {devices/iopin.sym} -60 -470 3 0 {name=p3 lab=VP}
+C {devices/lab_pin.sym} -60 -470 3 0 {name=p4 sig_type=std_logic lab=VP}
+C {devices/lab_pin.sym} 710 -450 1 0 {name=p8 sig_type=std_logic lab=VP}
+C {devices/lab_pin.sym} 480 -400 1 0 {name=p9 sig_type=std_logic lab=VP}
+C {devices/iopin.sym} -60 -350 3 0 {name=p10 lab=VN}
+C {devices/lab_pin.sym} -60 -350 3 0 {name=p11 sig_type=std_logic lab=VN}
+C {devices/lab_pin.sym} 210 -170 3 0 {name=p12 sig_type=std_logic lab=VN}
+C {devices/lab_pin.sym} 1000 -220 3 0 {name=p13 sig_type=std_logic lab=VN}
