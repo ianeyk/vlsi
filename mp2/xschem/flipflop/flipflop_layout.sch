@@ -217,7 +217,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos3.sym} 930 -380 1 0 {name=M5
 L=0.15
-W=1
+W=4
 body=VDD
 nf=1
 mult=1
@@ -232,7 +232,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos3.sym} 1070 -380 1 0 {name=M6
 L=0.15
-W=1
+W=4
 body=VDD
 nf=1
 mult=1
@@ -247,7 +247,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos3.sym} 770 -380 1 0 {name=M7
 L=0.15
-W=1
+W=4
 body=VDD
 nf=1
 mult=1
@@ -262,7 +262,7 @@ spiceprefix=X
 }
 C {madvlsi/nmos3.sym} 410 -240 3 0 {name=M8
 L=0.15
-W=1
+W=4
 body=GND
 nf=1
 mult=1
@@ -277,7 +277,7 @@ spiceprefix=X
 }
 C {madvlsi/nmos3.sym} 550 -240 3 0 {name=M9
 L=0.15
-W=1
+W=4
 body=GND
 nf=1
 mult=1
@@ -322,7 +322,7 @@ spiceprefix=X
 }
 C {madvlsi/nmos3.sym} 270 -240 3 0 {name=M12
 L=0.15
-W=1
+W=4
 body=GND
 nf=1
 mult=1
