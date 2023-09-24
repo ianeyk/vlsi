@@ -91,4 +91,8 @@ only_toplevel=false
 value=".option wnflag=1
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} 410 -130 0 0 {name=s1 only_toplevel=false value=".tran 0.01ns 300ns"}
+C {devices/code_shown.sym} 410 -130 0 0 {name=s1 only_toplevel=false value="
+.ic v(D1)=0 v(Q1)=0 v(Q2)=0 v(Q3)=0
+.ic v(x1.dmid)=0 v(x2.dmid)=0 v(x3.dmid)=0 v(x4.dmid)=0
+.tran 0.01ns 300ns
+.save all"}

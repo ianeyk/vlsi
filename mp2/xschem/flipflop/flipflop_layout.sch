@@ -14,19 +14,19 @@ lab=#net1}
 N 480 -240 520 -240 {
 lab=#net1}
 N 360 -240 380 -240 {
-lab=#net2}
+lab=Dmid}
 N 360 -380 360 -240 {
-lab=#net2}
+lab=Dmid}
 N 360 -380 380 -380 {
-lab=#net2}
+lab=Dmid}
 N 440 -380 520 -380 {
 lab=VP}
 N 580 -380 600 -380 {
-lab=#net3}
+lab=Dmid}
 N 600 -380 600 -240 {
-lab=#net3}
+lab=Dmid}
 N 580 -240 600 -240 {
-lab=#net3}
+lab=Dmid}
 N 960 -240 1000 -240 {
 lab=VN}
 N 1000 -240 1040 -240 {
@@ -38,7 +38,7 @@ lab=Qbar}
 N 880 -380 900 -380 {
 lab=Qbar}
 N 960 -380 1040 -380 {
-lab=#net4}
+lab=#net2}
 N 1100 -380 1120 -380 {
 lab=Q}
 N 1120 -380 1120 -240 {
@@ -50,21 +50,21 @@ lab=CLK}
 N 770 -210 770 -90 {
 lab=CLK}
 N 410 -410 410 -210 {
-lab=#net3}
+lab=Dmid}
 N 550 -410 550 -210 {
-lab=#net2}
+lab=Dmid}
 N 930 -410 930 -210 {
 lab=Q}
 N 1070 -410 1070 -210 {
 lab=Qbar}
 N 800 -380 830 -380 {
-lab=#net4}
+lab=#net2}
 N 830 -450 830 -380 {
-lab=#net4}
+lab=#net2}
 N 830 -450 1000 -450 {
-lab=#net4}
+lab=#net2}
 N 1000 -450 1000 -380 {
-lab=#net4}
+lab=#net2}
 N 800 -240 830 -240 {
 lab=Q}
 N 830 -240 830 -170 {
@@ -88,11 +88,11 @@ lab=#net1}
 N 480 -240 480 -170 {
 lab=#net1}
 N 300 -500 550 -500 {
-lab=#net3}
+lab=Dmid}
 N 300 -380 330 -380 {
-lab=#net2}
+lab=Dmid}
 N 330 -450 330 -380 {
-lab=#net2}
+lab=Dmid}
 N 930 -210 930 -170 {
 lab=Q}
 N 200 -500 240 -500 {
@@ -104,13 +104,13 @@ lab=VN}
 N 210 -240 210 -170 {
 lab=VN}
 N 550 -500 680 -500 {
-lab=#net3}
+lab=Dmid}
 N 680 -500 680 -240 {
-lab=#net3}
+lab=Dmid}
 N 680 -240 740 -240 {
-lab=#net3}
+lab=Dmid}
 N 640 -120 740 -120 {
-lab=#net2}
+lab=Dmid}
 N 710 -380 740 -380 {
 lab=VP}
 N 710 -450 710 -380 {
@@ -142,19 +142,19 @@ lab=CLK}
 N 770 -580 770 -450 {
 lab=CLK}
 N 410 -500 410 -410 {
-lab=#net3}
+lab=Dmid}
 N 550 -450 550 -410 {
-lab=#net2}
+lab=Dmid}
 N 330 -450 550 -450 {
-lab=#net2}
+lab=Dmid}
 N 360 -450 360 -380 {
-lab=#net2}
+lab=Dmid}
 N 640 -450 640 -120 {
-lab=#net2}
+lab=Dmid}
 N 550 -450 640 -450 {
-lab=#net2}
+lab=Dmid}
 N 600 -500 600 -380 {
-lab=#net3}
+lab=Dmid}
 C {madvlsi/nmos3.sym} 770 -240 3 0 {name=M1
 L=0.15
 W=1
@@ -378,3 +378,5 @@ C {devices/iopin.sym} -60 -350 3 0 {name=p10 lab=VN}
 C {devices/lab_pin.sym} -60 -350 3 0 {name=p11 sig_type=std_logic lab=VN}
 C {devices/lab_pin.sym} 210 -170 3 0 {name=p12 sig_type=std_logic lab=VN}
 C {devices/lab_pin.sym} 1000 -220 3 0 {name=p13 sig_type=std_logic lab=VN}
+C {devices/lab_pin.sym} 680 -500 1 0 {name=p14 sig_type=std_logic lab=Dmid}
+C {devices/lab_pin.sym} 680 -120 1 0 {name=p15 sig_type=std_logic lab=Dmidbar}
