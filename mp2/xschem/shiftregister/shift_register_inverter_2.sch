@@ -67,7 +67,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos3.sym} 70 -230 0 0 {name=M3
 L=0.15
-W=1
+W=2
 body=VDD
 nf=1
 mult=1
@@ -82,7 +82,7 @@ spiceprefix=X
 }
 C {madvlsi/pmos3.sym} 180 -230 0 0 {name=M4
 L=0.15
-W=1
+W=2
 body=VDD
 nf=1
 mult=1

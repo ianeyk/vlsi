@@ -1,10 +1,13 @@
 magic
 tech sky130A
-timestamp 1695703896
+timestamp 1695705927
 << locali >>
 rect 2210 660 2230 680
 rect 2210 530 2230 550
+rect -940 490 -920 510
 << metal1 >>
+rect -940 530 -925 720
+rect -940 300 -925 450
 rect -630 15 -615 30
 use flipflop  flipflop_0 ../flipflop
 timestamp 1695617576
@@ -33,10 +36,10 @@ rlabel locali 2230 540 2230 540 3 Qbar
 port 3 e
 rlabel metal1 -630 25 -630 25 7 CLK
 port 6 w
-rlabel space -940 625 -940 625 7 VP
-port 4 w
-rlabel space -940 500 -940 500 7 A
+rlabel locali -940 500 -940 500 7 A
 port 1 w
-rlabel space -940 405 -940 405 7 VN
+rlabel metal1 -940 625 -940 625 7 VP
+port 4 w
+rlabel metal1 -940 405 -940 405 7 VN
 port 5 w
 << end >>

@@ -370,12 +370,12 @@ C {devices/ipin.sym} 200 -380 0 0 {name=p2 lab=Dbar}
 C {devices/opin.sym} 1170 -240 0 0 {name=p5 lab=Q}
 C {devices/opin.sym} 1170 -120 0 0 {name=p6 lab=Qbar}
 C {devices/ipin.sym} 100 -150 2 0 {name=p7 lab=CLK}
-C {devices/iopin.sym} -60 -470 3 0 {name=p3 lab=VP}
-C {devices/lab_pin.sym} -60 -470 3 0 {name=p4 sig_type=std_logic lab=VP}
+C {devices/iopin.sym} 25 -465 3 0 {name=p3 lab=VP}
+C {devices/lab_pin.sym} 25 -465 3 0 {name=p4 sig_type=std_logic lab=VP}
 C {devices/lab_pin.sym} 710 -450 1 0 {name=p8 sig_type=std_logic lab=VP}
 C {devices/lab_pin.sym} 480 -400 1 0 {name=p9 sig_type=std_logic lab=VP}
-C {devices/iopin.sym} -60 -350 3 0 {name=p10 lab=VN}
-C {devices/lab_pin.sym} -60 -350 3 0 {name=p11 sig_type=std_logic lab=VN}
+C {devices/iopin.sym} 25 -345 3 0 {name=p10 lab=VN}
+C {devices/lab_pin.sym} 25 -345 3 0 {name=p11 sig_type=std_logic lab=VN}
 C {devices/lab_pin.sym} 210 -170 3 0 {name=p12 sig_type=std_logic lab=VN}
 C {devices/lab_pin.sym} 1000 -220 3 0 {name=p13 sig_type=std_logic lab=VN}
 C {devices/lab_pin.sym} 680 -500 1 0 {name=p14 sig_type=std_logic lab=Dmid}

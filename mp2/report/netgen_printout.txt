@@ -1,0 +1,87 @@
+madvlsi@madvlsi-ubuntu:~/dev/git/vlsi/mp2/magic/shiftregister$ lvs shift_register_lvs.spice shiftregister.spice
+Netgen 1.5.257 compiled on Mon Sep  4 10:56:11 AM EDT 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file shift_register_lvs.spice
+Call to undefined subcircuit flipflop_layout
+Creating placeholder cell definition.
+Call to undefined subcircuit shift_register_inverter_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Cell shift_register_lvs.spice:  Net GND changed to global
+Cell flipflop_layout:  Net GND changed to global
+Cell shift_register_inverter_2:  Net GND changed to global
+Cell shift_register_lvs.spice:  Net VDD changed to global
+Cell flipflop_layout:  Net VDD changed to global
+Cell shift_register_inverter_2:  Net VDD changed to global
+Reading netlist file shiftregister.spice
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+
+Reading setup file /home/madvlsi/skywater/open_pdks/sky130/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Comparison output logged to file comp.out
+Logging to file "comp.out" enabled
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+Circuit sky130_fd_pr__pfet_01v8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'shift_register_lvs.spice'
+Circuit shift_register_lvs.spice contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  30
+  Class: sky130_fd_pr__pfet_01v8 instances:  30
+Circuit contains 30 nets.
+Contents of circuit 2:  Circuit: 'shiftregister.spice'
+Circuit shiftregister.spice contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  30
+  Class: sky130_fd_pr__pfet_01v8 instances:  30
+Circuit contains 30 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 30 nets,    Circuit 2 contains 30 nets.
+
+
+Final result: 
+Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ shift_register_lvs.spice
+
+Logging to file "comp.out" disabled
+LVS Done.
+
