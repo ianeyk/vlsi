@@ -1,0 +1,38 @@
+* SPICE3 file created from shiftregister.ext - technology: sky130A
+
+.subckt shiftregister_inverter A D Dbar VP VN
+X0 D Dbar VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X1 D Dbar VP VP sky130_fd_pr__pfet_01v8 ad=1 pd=5 as=0.5 ps=2.5 w=2 l=0.15
+X2 VN A Dbar VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X3 VP A Dbar VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=2.5 as=1 ps=5 w=2 l=0.15
+.ends
+
+.subckt flipflop D Dbar Q Qbar CLK VP VN
+X0 Q Qbar a_740_930# VP sky130_fd_pr__pfet_01v8 ad=2 pd=9 as=1 ps=4.5 w=4 l=0.15
+X1 VP a_30_930# a_30_1190# VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X2 a_740_930# Q Qbar VP sky130_fd_pr__pfet_01v8 ad=1 pd=4.5 as=2 ps=9 w=4 l=0.15
+X3 Q CLK a_30_1190# VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X4 a_30_930# a_30_1190# VP VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X5 a_30_n10# CLK VN VN sky130_fd_pr__nfet_01v8 ad=2 pd=9 as=2 ps=9 w=4 l=0.15
+X6 a_30_1190# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X7 Q Qbar VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X8 a_30_930# CLK Dbar VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X9 a_740_930# CLK VP VP sky130_fd_pr__pfet_01v8 ad=2 pd=9 as=2 ps=9 w=4 l=0.15
+X10 a_30_n10# a_30_930# a_30_1190# VN sky130_fd_pr__nfet_01v8 ad=1 pd=4.5 as=2 ps=9 w=4 l=0.15
+X11 VN Q Qbar VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X12 Qbar CLK a_30_930# VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X13 a_30_930# a_30_1190# a_30_n10# VN sky130_fd_pr__nfet_01v8 ad=2 pd=9 as=1 ps=4.5 w=4 l=0.15
+.ends
+
+*.subckt shiftregister Q Qbar CLK
+Xshiftregister_inverter_0 shiftregister_inverter_0/A flipflop_0/D flipflop_0/Dbar
++ flipflop_3/VP VSUBS shiftregister_inverter
+Xflipflop_0 flipflop_0/D flipflop_0/Dbar flipflop_1/D flipflop_1/Dbar CLK flipflop_3/VP
++ VSUBS flipflop
+Xflipflop_1 flipflop_1/D flipflop_1/Dbar flipflop_2/D flipflop_2/Dbar CLK flipflop_3/VP
++ VSUBS flipflop
+Xflipflop_2 flipflop_2/D flipflop_2/Dbar flipflop_3/D flipflop_3/Dbar CLK flipflop_3/VP
++ VSUBS flipflop
+Xflipflop_3 flipflop_3/D flipflop_3/Dbar Q Qbar CLK flipflop_3/VP VSUBS flipflop
+**.ends
+
