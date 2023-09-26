@@ -16,11 +16,11 @@ lab=VP}
 N 180 -290 180 -260 {
 lab=VP}
 N 70 -80 70 -50 {
-lab=VP}
+lab=VN}
 N 70 -50 180 -50 {
-lab=VP}
+lab=VN}
 N 180 -80 180 -50 {
-lab=VP}
+lab=VN}
 N 140 -110 150 -110 {
 lab=Dbar1}
 N 140 -230 140 -110 {
@@ -35,9 +35,6 @@ N 30 -110 40 -110 {
 lab=A}
 N 70 -170 140 -170 {
 lab=Dbar1}
-C {devices/lab_pin.sym} 30 -170 0 0 {name=p4 sig_type=std_logic lab=A}
-C {devices/lab_pin.sym} 180 -170 2 0 {name=p13 sig_type=std_logic lab=D1}
-C {devices/lab_pin.sym} 140 -150 0 0 {name=p14 sig_type=std_logic lab=Dbar1}
 C {madvlsi/nmos3.sym} 70 -110 0 0 {name=M1
 L=0.15
 W=1
@@ -100,3 +97,6 @@ spiceprefix=X
 }
 C {devices/iopin.sym} 120 -290 3 0 {name=p1 lab=VP}
 C {devices/iopin.sym} 130 -50 1 0 {name=p2 lab=VN}
+C {devices/ipin.sym} 30 -170 0 0 {name=p3 lab=A}
+C {devices/opin.sym} 180 -170 0 0 {name=p4 lab=D1}
+C {devices/opin.sym} 70 -150 0 0 {name=p5 lab=Dbar1}

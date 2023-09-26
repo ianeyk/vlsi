@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1695702519
+timestamp 1695703896
 << locali >>
 rect 2210 660 2230 680
 rect 2210 530 2230 550
@@ -22,6 +22,10 @@ use flipflop  flipflop_3
 timestamp 1695617576
 transform 1 0 1565 0 1 60
 box -70 -70 665 900
+use shiftregister_inverter  shiftregister_inverter_0
+timestamp 1695703570
+transform 1 0 -650 0 1 -10
+box -310 310 20 755
 << labels >>
 rlabel locali 2230 670 2230 670 3 Q
 port 2 e
@@ -29,4 +33,10 @@ rlabel locali 2230 540 2230 540 3 Qbar
 port 3 e
 rlabel metal1 -630 25 -630 25 7 CLK
 port 6 w
+rlabel space -940 625 -940 625 7 VP
+port 4 w
+rlabel space -940 500 -940 500 7 A
+port 1 w
+rlabel space -940 405 -940 405 7 VN
+port 5 w
 << end >>

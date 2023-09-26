@@ -6,22 +6,29 @@ Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalen
 Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-Flattening unmatched subcell flipflop_layout in circuit shift_register_lvs_noinverter.spice (0)(4 instances)
+Flattening unmatched subcell flipflop_layout in circuit shift_register_lvs.spice (0)(4 instances)
+Flattening unmatched subcell shift_register_inverter_2 in circuit shift_register_lvs.spice (0)(1 instance)
+Flattening unmatched subcell shiftregister_inverter in circuit shiftregister.spice (1)(1 instance)
 Flattening unmatched subcell flipflop in circuit shiftregister.spice (1)(4 instances)
 
 Subcircuit summary:
-Circuit 1: shift_register_lvs_noinverter.s |Circuit 2: shiftregister.spice             
+Circuit 1: shift_register_lvs.spice        |Circuit 2: shiftregister.spice             
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (28)               |sky130_fd_pr__nfet_01v8 (28)               
-sky130_fd_pr__pfet_01v8 (28)               |sky130_fd_pr__pfet_01v8 (28)               
-Number of devices: 56                      |Number of devices: 56                      
-Number of nets: 29                         |Number of nets: 29                         
+sky130_fd_pr__nfet_01v8 (30)               |sky130_fd_pr__nfet_01v8 (30)               
+sky130_fd_pr__pfet_01v8 (30)               |sky130_fd_pr__pfet_01v8 (30)               
+Number of devices: 60                      |Number of devices: 60                      
+Number of nets: 30                         |Number of nets: 30                         
 ---------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match with 33 symmetries.
+Netlists match uniquely with property errors.
+shift_register_inverter_2:7/sky130_fd_pr__pfet_01v8:M4 vs. shiftregister_inverter_0/sky130_fd_pr__pfet_01v8:1:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+shift_register_inverter_2:7/sky130_fd_pr__pfet_01v8:M3 vs. shiftregister_inverter_0/sky130_fd_pr__pfet_01v8:3:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
 Cells have no pins;  pin matching not needed.
-Device classes shift_register_lvs_noinverter.spice and shiftregister.spice are equivalent.
+Device classes shift_register_lvs.spice and shiftregister.spice are equivalent.
 
 Final result: Circuits match uniquely.
-.
+Property errors were found.
+
+The following cells had property errors:
+ shift_register_lvs.spice
