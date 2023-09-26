@@ -1,12 +1,4 @@
-* NGSPICE file created from shiftregister.ext - technology: sky130A
-
-.subckt inverter a_n420_730# a_n370_960# w_n460_1030# a_n290_1070# a_n290_730# a_n160_730#
-+ VSUBS
-X0 a_n160_730# a_n420_730# a_n290_730# VSUBS sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
-X1 a_n160_730# a_n420_730# a_n290_1070# w_n460_1030# sky130_fd_pr__pfet_01v8 ad=1 pd=5 as=0.5 ps=2.5 w=2 l=0.15
-X2 a_n290_730# a_n370_960# a_n420_730# VSUBS sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
-X3 a_n290_1070# a_n370_960# a_n420_1070# w_n460_1030# sky130_fd_pr__pfet_01v8 ad=0.5 pd=2.5 as=1 ps=5 w=2 l=0.15
-.ends
+* SPICE3 file created from shiftregister.ext - technology: sky130A
 
 .subckt flipflop D Dbar Q Qbar CLK VP VN
 X0 Q Qbar a_740_930# VP sky130_fd_pr__pfet_01v8 ad=2 pd=9 as=1 ps=4.5 w=4 l=0.15
@@ -25,11 +17,13 @@ X12 Qbar CLK a_30_930# VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=
 X13 a_30_930# a_30_1190# a_30_n10# VN sky130_fd_pr__nfet_01v8 ad=2 pd=9 as=1 ps=4.5 w=4 l=0.15
 .ends
 
-*.subckt shiftregister A Q Qbar VP VN CLK
-Xinverter_0 flipflop_0/Dbar A VP VP VN flipflop_0/D VN inverter
-Xflipflop_0 flipflop_0/D flipflop_0/Dbar flipflop_1/D flipflop_1/Dbar CLK VP VN flipflop
-Xflipflop_1 flipflop_1/D flipflop_1/Dbar flipflop_2/D flipflop_2/Dbar CLK VP VN flipflop
-Xflipflop_2 flipflop_2/D flipflop_2/Dbar flipflop_3/D flipflop_3/Dbar CLK VP VN flipflop
-Xflipflop_3 flipflop_3/D flipflop_3/Dbar Q Qbar CLK VP VN flipflop
+*.subckt shiftregister Q Qbar CLK
+Xflipflop_0 flipflop_0/D flipflop_0/Dbar flipflop_1/D flipflop_1/Dbar CLK flipflop_3/VP
++ VSUBS flipflop
+Xflipflop_1 flipflop_1/D flipflop_1/Dbar flipflop_2/D flipflop_2/Dbar CLK flipflop_3/VP
++ VSUBS flipflop
+Xflipflop_2 flipflop_2/D flipflop_2/Dbar flipflop_3/D flipflop_3/Dbar CLK flipflop_3/VP
++ VSUBS flipflop
+Xflipflop_3 flipflop_3/D flipflop_3/Dbar Q Qbar CLK flipflop_3/VP VSUBS flipflop
 *.ends
 
