@@ -48,5 +48,5 @@ only_toplevel=false
 value=".option wnflag=1
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} 480 -60 0 0 {name=s1 only_toplevel=false value=".dc V1 0.2 1.0 0.01"}
-C {devices/lab_pin.sym} 340 -250 1 0 {name=p10 sig_type=std_logic lab=Vbp}
+C {devices/code_shown.sym} 480 -60 0 0 {name=s1 only_toplevel=false value=".dc V1 0 1.8 0.001"}
+C {devices/lab_pin.sym} 280 -130 2 0 {name=p10 sig_type=std_logic lab=Vbp}
