@@ -11,19 +11,19 @@ N 270 -210 360 -210 {
 lab=Vcn}
 N 270 -190 360 -190 {
 lab=Vb}
+N 220 -170 220 -110 {
+lab=Vbp}
 N 270 -250 360 -250 {
-lab=Vbp}
-N 280 -250 280 -110 {
-lab=Vbp}
+lab=#net1}
 C {/home/madvlsi/dev/git/vlsi/mp3/xschem/bias_schematic.sym} 230 -220 0 0 {name=x1}
 C {/home/madvlsi/dev/git/vlsi/mp3/xschem/opamp_schematic.sym} 460 -330 0 0 {name=x2}
 C {madvlsi/vdd.sym} 400 -400 0 0 {name=l1 lab=VDD}
 C {madvlsi/vdd.sym} 230 -270 0 0 {name=l2 lab=VDD}
-C {madvlsi/gnd.sym} 230 -170 0 0 {name=l3 lab=GND}
+C {madvlsi/gnd.sym} 240 -160 0 0 {name=l3 lab=GND}
 C {madvlsi/gnd.sym} 400 -160 0 0 {name=l4 lab=GND}
-C {madvlsi/isource.sym} 280 -80 0 0 {name=I1
+C {madvlsi/isource.sym} 220 -80 0 0 {name=I1
 value=1n}
-C {madvlsi/gnd.sym} 280 -50 0 0 {name=l5 lab=GND}
+C {madvlsi/gnd.sym} 220 -50 0 0 {name=l5 lab=GND}
 C {devices/lab_pin.sym} 300 -230 1 0 {name=p2 sig_type=std_logic lab=Vcp}
 C {devices/lab_pin.sym} 320 -210 1 0 {name=p3 sig_type=std_logic lab=Vcn}
 C {devices/lab_pin.sym} 340 -190 1 0 {name=p4 sig_type=std_logic lab=Vb}
@@ -49,4 +49,4 @@ value=".option wnflag=1
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
 C {devices/code_shown.sym} 480 -60 0 0 {name=s1 only_toplevel=false value=".dc V1 0.2 1.0 0.01"}
-C {devices/lab_pin.sym} 340 -250 1 0 {name=p10 sig_type=std_logic lab=Vbp}
+C {devices/lab_pin.sym} 220 -150 0 0 {name=p10 sig_type=std_logic lab=Vbp}
