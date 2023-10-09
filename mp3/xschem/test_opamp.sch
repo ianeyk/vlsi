@@ -42,13 +42,13 @@ value=1.8}
 C {madvlsi/gnd.sym} 40 -360 0 0 {name=l8 lab=GND}
 C {madvlsi/vdd.sym} 40 -420 0 0 {name=l9 lab=VDD}
 C {devices/lab_pin.sym} 490 -330 2 0 {name=p9 sig_type=std_logic lab=Vout}
-C {madvlsi/tt_models.sym} 590 -410 0 0 {
+C {madvlsi/tt_models.sym} 570 -410 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} 600 -250 0 0 {name=s1 only_toplevel=false value="
+C {devices/code_shown.sym} 580 -250 0 0 {name=s1 only_toplevel=false value="
 *.dc V1 0 1.8 0.001 V2 0.8 1.6 0.2
 .control
 dc V1 0 1.8 0.001 V2 0 1.8 0.1
