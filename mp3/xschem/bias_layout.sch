@@ -84,263 +84,263 @@ lab=Vcn}
 N 1850 -590 1850 -550 {
 lab=Vcn}
 N 1460 -710 1470 -710 {
-lab=#net6}
+lab=Vcn}
 N 1230 -710 1240 -710 {
-lab=#net6}
+lab=Vcn}
 N 1460 -710 1460 -630 {
-lab=#net6}
+lab=Vcn}
 N 840 -630 1460 -630 {
-lab=#net6}
+lab=Vcn}
 N 840 -710 840 -630 {
-lab=#net6}
+lab=Vcn}
 N 830 -710 840 -710 {
-lab=#net6}
+lab=Vcn}
 N 1240 -710 1240 -630 {
-lab=#net6}
+lab=Vcn}
 N 1060 -710 1070 -710 {
-lab=#net6}
+lab=Vcn}
 N 1060 -710 1060 -630 {
-lab=#net6}
+lab=Vcn}
 N 1900 -590 1940 -590 {
 lab=Vcn}
 N 430 -330 470 -330 {
-lab=#net7}
+lab=#net6}
 N 530 -330 570 -330 {
-lab=#net8}
+lab=#net5}
 N 630 -330 670 -330 {
-lab=#net7}
+lab=#net6}
 N 360 -330 370 -330 {
-lab=#net8}
+lab=#net5}
 N 360 -330 360 -240 {
-lab=#net8}
+lab=#net5}
 N 360 -240 740 -240 {
-lab=#net8}
+lab=#net5}
 N 730 -330 740 -330 {
-lab=#net8}
+lab=#net5}
 N 550 -330 550 -240 {
-lab=#net8}
+lab=#net5}
 N 960 -330 970 -330 {
-lab=#net8}
+lab=#net5}
 N 960 -240 1340 -240 {
-lab=#net8}
+lab=#net5}
 N 1330 -330 1340 -330 {
-lab=#net8}
+lab=#net5}
 N 1230 -330 1270 -330 {
-lab=#net7}
+lab=#net6}
 N 1130 -330 1170 -330 {
-lab=#net8}
+lab=#net5}
 N 1150 -330 1150 -240 {
-lab=#net8}
+lab=#net5}
 N 1030 -330 1070 -330 {
-lab=#net7}
+lab=#net6}
 N 740 -240 960 -240 {
-lab=#net8}
+lab=#net5}
 N 1340 -240 1940 -240 {
-lab=#net8}
+lab=#net5}
 N 1940 -330 1940 -240 {
-lab=#net8}
+lab=#net5}
 N 1930 -330 1940 -330 {
-lab=#net8}
+lab=#net5}
 N 1830 -330 1870 -330 {
-lab=#net7}
+lab=#net6}
 N 1730 -330 1770 -330 {
-lab=#net8}
+lab=#net5}
 N 1750 -330 1750 -240 {
-lab=#net8}
+lab=#net5}
 N 1630 -330 1670 -330 {
-lab=#net7}
+lab=#net6}
 N 1560 -330 1570 -330 {
-lab=#net8}
+lab=#net5}
 N 1430 -330 1470 -330 {
 lab=GND}
 N 1340 -330 1370 -330 {
-lab=#net8}
+lab=#net5}
 N 1530 -330 1560 -330 {
-lab=#net8}
+lab=#net5}
 N 1550 -330 1550 -240 {
-lab=#net8}
+lab=#net5}
 N 830 -330 870 -330 {
 lab=GND}
 N 740 -330 770 -330 {
-lab=#net8}
+lab=#net5}
 N 930 -330 960 -330 {
-lab=#net8}
+lab=#net5}
 N 750 -330 750 -240 {
-lab=#net8}
+lab=#net5}
 N 950 -330 950 -240 {
-lab=#net8}
+lab=#net5}
 N 1350 -330 1350 -240 {
-lab=#net8}
+lab=#net5}
 N 400 -370 400 -360 {
-lab=#net7}
+lab=#net6}
 N 400 -370 1900 -370 {
-lab=#net7}
+lab=#net6}
 N 1900 -370 1900 -360 {
-lab=#net7}
+lab=#net6}
 N 1800 -370 1800 -360 {
-lab=#net7}
+lab=#net6}
 N 1700 -370 1700 -360 {
-lab=#net7}
+lab=#net6}
 N 1600 -370 1600 -360 {
-lab=#net7}
+lab=#net6}
 N 1500 -370 1500 -360 {
-lab=#net7}
+lab=#net6}
 N 1400 -370 1400 -360 {
-lab=#net7}
+lab=#net6}
 N 1300 -370 1300 -360 {
-lab=#net7}
+lab=#net6}
 N 1200 -370 1200 -360 {
-lab=#net7}
+lab=#net6}
 N 1100 -370 1100 -360 {
-lab=#net7}
+lab=#net6}
 N 1000 -370 1000 -360 {
-lab=#net7}
+lab=#net6}
 N 900 -370 900 -360 {
-lab=#net7}
+lab=#net6}
 N 800 -370 800 -360 {
-lab=#net7}
+lab=#net6}
 N 700 -370 700 -360 {
-lab=#net7}
+lab=#net6}
 N 600 -370 600 -360 {
-lab=#net7}
+lab=#net6}
 N 500 -370 500 -360 {
-lab=#net7}
+lab=#net6}
 N 1250 -370 1250 -330 {
-lab=#net7}
+lab=#net6}
 N 1050 -370 1050 -330 {
-lab=#net7}
+lab=#net6}
 N 650 -370 650 -330 {
-lab=#net7}
+lab=#net6}
 N 450 -370 450 -330 {
-lab=#net7}
+lab=#net6}
 N 850 -330 850 -200 {
 lab=GND}
 N 1450 -330 1450 -200 {
 lab=GND}
 N 1650 -370 1650 -330 {
-lab=#net7}
+lab=#net6}
 N 1850 -370 1850 -330 {
-lab=#net7}
+lab=#net6}
 N 400 -920 400 -910 {
-lab=Vbp}
+lab=#net7}
 N 400 -910 1900 -910 {
-lab=Vbp}
+lab=#net7}
 N 1900 -920 1900 -910 {
-lab=Vbp}
+lab=#net7}
 N 430 -950 470 -950 {
-lab=Vbp}
+lab=#net7}
 N 530 -950 570 -950 {
-lab=#net9}
+lab=#net8}
 N 630 -950 670 -950 {
-lab=Vbp}
+lab=#net7}
 N 360 -950 370 -950 {
-lab=#net9}
+lab=#net8}
 N 360 -1040 360 -950 {
-lab=#net9}
+lab=#net8}
 N 730 -950 770 -950 {
-lab=#net9}
+lab=#net8}
 N 830 -950 870 -950 {
 lab=VDD}
 N 930 -950 970 -950 {
-lab=#net9}
+lab=#net8}
 N 1030 -950 1070 -950 {
-lab=Vbp}
+lab=#net7}
 N 1130 -950 1170 -950 {
-lab=#net9}
+lab=#net8}
 N 1230 -950 1270 -950 {
-lab=Vbp}
+lab=#net7}
 N 1330 -950 1370 -950 {
-lab=#net9}
+lab=#net8}
 N 1430 -950 1470 -950 {
 lab=VDD}
 N 1530 -950 1570 -950 {
-lab=#net9}
+lab=#net8}
 N 1630 -950 1670 -950 {
-lab=Vbp}
+lab=#net7}
 N 1730 -950 1770 -950 {
-lab=#net9}
+lab=#net8}
 N 1830 -950 1870 -950 {
-lab=Vbp}
+lab=#net7}
 N 500 -920 500 -910 {
-lab=Vbp}
+lab=#net7}
 N 600 -920 600 -910 {
-lab=Vbp}
+lab=#net7}
 N 700 -920 700 -910 {
-lab=Vbp}
+lab=#net7}
 N 800 -920 800 -910 {
-lab=Vbp}
+lab=#net7}
 N 900 -920 900 -910 {
-lab=Vbp}
+lab=#net7}
 N 1000 -920 1000 -910 {
-lab=Vbp}
+lab=#net7}
 N 1100 -920 1100 -910 {
-lab=Vbp}
+lab=#net7}
 N 1200 -920 1200 -910 {
-lab=Vbp}
+lab=#net7}
 N 1300 -920 1300 -910 {
-lab=Vbp}
+lab=#net7}
 N 1400 -920 1400 -910 {
-lab=Vbp}
+lab=#net7}
 N 1500 -920 1500 -910 {
-lab=Vbp}
+lab=#net7}
 N 1600 -920 1600 -910 {
-lab=Vbp}
+lab=#net7}
 N 1700 -920 1700 -910 {
-lab=Vbp}
+lab=#net7}
 N 1800 -920 1800 -910 {
-lab=Vbp}
+lab=#net7}
 N 550 -1040 550 -950 {
-lab=#net9}
+lab=#net8}
 N 360 -1040 1940 -1040 {
-lab=#net9}
+lab=#net8}
 N 1940 -1040 1940 -950 {
-lab=#net9}
+lab=#net8}
 N 1930 -950 1940 -950 {
-lab=#net9}
+lab=#net8}
 N 1750 -1040 1750 -950 {
-lab=#net9}
+lab=#net8}
 N 1550 -1040 1550 -950 {
-lab=#net9}
+lab=#net8}
 N 1350 -1040 1350 -950 {
-lab=#net9}
+lab=#net8}
 N 1150 -1040 1150 -950 {
-lab=#net9}
+lab=#net8}
 N 950 -1040 950 -950 {
-lab=#net9}
+lab=#net8}
 N 750 -1040 750 -950 {
-lab=#net9}
+lab=#net8}
 N 850 -1090 850 -950 {
 lab=VDD}
 N 1450 -1090 1450 -950 {
 lab=VDD}
 N 450 -950 450 -910 {
-lab=Vbp}
+lab=#net7}
 N 650 -950 650 -910 {
-lab=Vbp}
+lab=#net7}
 N 1050 -950 1050 -910 {
-lab=Vbp}
+lab=#net7}
 N 1250 -950 1250 -910 {
-lab=Vbp}
+lab=#net7}
 N 1650 -950 1650 -910 {
-lab=Vbp}
+lab=#net7}
 N 1850 -950 1850 -910 {
-lab=Vbp}
+lab=#net7}
 N 800 -520 800 -510 {
-lab=#net10}
+lab=Vb}
 N 1500 -520 1500 -510 {
-lab=#net10}
+lab=Vb}
 N 900 -520 900 -510 {
-lab=#net10}
+lab=Vb}
 N 1000 -520 1000 -510 {
-lab=#net10}
+lab=Vb}
 N 1100 -520 1100 -510 {
-lab=#net10}
+lab=Vb}
 N 1200 -520 1200 -510 {
-lab=#net10}
+lab=Vb}
 N 1300 -520 1300 -510 {
-lab=#net10}
+lab=Vb}
 N 1400 -520 1400 -510 {
-lab=#net10}
+lab=Vb}
 N 1530 -550 1540 -550 {
 lab=GND}
 N 1540 -550 1540 -450 {
@@ -356,39 +356,39 @@ lab=GND}
 N 1440 -550 1440 -450 {
 lab=GND}
 N 860 -550 870 -550 {
-lab=#net11}
+lab=#net9}
 N 930 -550 970 -550 {
-lab=#net12}
+lab=#net10}
 N 1430 -550 1440 -550 {
 lab=GND}
 N 1330 -550 1370 -550 {
-lab=#net13}
-N 1260 -550 1270 -550 {
 lab=#net11}
+N 1260 -550 1270 -550 {
+lab=#net9}
 N 830 -550 840 -550 {
-lab=#net14}
+lab=Vcp}
 N 1460 -550 1470 -550 {
-lab=#net14}
+lab=Vcp}
 N 1060 -550 1070 -550 {
-lab=#net14}
+lab=Vcp}
 N 1230 -550 1240 -550 {
-lab=#net14}
+lab=Vcp}
 N 1560 -710 1570 -710 {
-lab=#net15}
+lab=#net8}
 N 1560 -790 1560 -710 {
-lab=#net15}
+lab=#net8}
 N 1930 -710 1940 -710 {
-lab=#net15}
+lab=#net8}
 N 1940 -790 1940 -710 {
-lab=#net15}
+lab=#net8}
 N 1560 -790 1940 -790 {
-lab=#net15}
+lab=#net8}
 N 1630 -710 1670 -710 {
 lab=Vcp}
 N 1730 -710 1770 -710 {
-lab=#net15}
+lab=#net8}
 N 1750 -790 1750 -710 {
-lab=#net15}
+lab=#net8}
 N 1830 -710 1870 -710 {
 lab=Vcp}
 N 1600 -680 1600 -670 {
@@ -410,7 +410,7 @@ lab=Vbp}
 N 30 -710 70 -710 {
 lab=VDD}
 N 130 -710 170 -710 {
-lab=GND}
+lab=#net12}
 N 230 -710 270 -710 {
 lab=VDD}
 N 0 -680 0 -670 {
@@ -426,7 +426,7 @@ lab=Vbp}
 N 630 -710 670 -710 {
 lab=VDD}
 N 530 -710 570 -710 {
-lab=GND}
+lab=#net12}
 N 430 -710 470 -710 {
 lab=VDD}
 N 700 -680 700 -670 {
@@ -442,45 +442,45 @@ lab=Vbp}
 N 730 -710 740 -710 {
 lab=Vbp}
 N 400 -590 400 -580 {
-lab=GND}
+lab=Vb}
 N 400 -590 700 -590 {
-lab=GND}
+lab=Vb}
 N 700 -590 700 -580 {
-lab=GND}
+lab=Vb}
 N 600 -590 600 -580 {
-lab=GND}
+lab=Vb}
 N 500 -590 500 -580 {
-lab=GND}
+lab=Vb}
 N 430 -550 470 -550 {
-lab=#net16}
+lab=GND}
 N 530 -550 570 -550 {
-lab=GND}
+lab=Vb}
 N 630 -550 670 -550 {
-lab=#net17}
+lab=GND}
 N 360 -550 370 -550 {
-lab=GND}
+lab=Vb}
 N 730 -550 740 -550 {
-lab=GND}
+lab=Vb}
 N 1060 -620 1060 -550 {
-lab=#net14}
+lab=Vcp}
 N 1240 -620 1240 -550 {
-lab=#net14}
+lab=Vcp}
 N 840 -620 840 -550 {
-lab=#net14}
+lab=Vcp}
 N 840 -620 1460 -620 {
-lab=#net14}
+lab=Vcp}
 N 900 -510 1500 -510 {
-lab=#net10}
+lab=Vb}
 N 1460 -620 1460 -550 {
-lab=#net14}
+lab=Vcp}
 N 1260 -550 1260 -480 {
-lab=#net11}
+lab=#net9}
 N 860 -480 1260 -480 {
-lab=#net11}
+lab=#net9}
 N 860 -550 860 -480 {
-lab=#net11}
+lab=#net9}
 N 1030 -550 1040 -550 {
-lab=#net18}
+lab=#net13}
 N 1900 -670 1940 -670 {
 lab=Vcp}
 N 1440 -800 1440 -710 {
@@ -488,7 +488,7 @@ lab=VDD}
 N 1540 -800 1540 -710 {
 lab=VDD}
 N 800 -510 900 -510 {
-lab=#net10}
+lab=Vb}
 N 50 -800 50 -790 {
 lab=VDD}
 N 450 -460 450 -450 {
@@ -506,9 +506,9 @@ lab=VDD}
 N 650 -790 650 -710 {
 lab=VDD}
 N 550 -710 550 -640 {
-lab=GND}
+lab=#net12}
 N 150 -710 150 -640 {
-lab=GND}
+lab=#net12}
 N 350 -710 350 -670 {
 lab=Vbp}
 N -40 -710 -40 -670 {
@@ -520,23 +520,51 @@ lab=Vbp}
 N 700 -670 740 -670 {
 lab=Vbp}
 N 150 -640 550 -640 {
-lab=GND}
+lab=#net12}
 N 50 -790 650 -790 {
 lab=VDD}
-N 740 -910 740 -710 {
-lab=Vbp}
 N 360 -590 400 -590 {
-lab=GND}
+lab=Vb}
 N 360 -590 360 -550 {
+lab=Vb}
+N 450 -550 450 -460 {
 lab=GND}
-N 450 -550 450 -460 {}
-N 650 -550 650 -460 {}
-N 450 -460 650 -460 {}
-N 700 -590 740 -590 {}
-N 740 -590 740 -550 {}
-N 550 -590 550 -550 {}
-N 530 -640 530 -590 {}
-N 740 -550 740 -370 {}
+N 650 -550 650 -460 {
+lab=GND}
+N 450 -460 650 -460 {
+lab=GND}
+N 700 -590 740 -590 {
+lab=Vb}
+N 740 -590 740 -550 {
+lab=Vb}
+N 550 -590 550 -550 {
+lab=Vb}
+N 740 -750 740 -710 {
+lab=Vbp}
+N 740 -750 800 -750 {
+lab=Vbp}
+N 740 -550 740 -510 {
+lab=Vb}
+N 740 -510 800 -510 {
+lab=Vb}
+N 1460 -630 1530 -630 {
+lab=Vcn}
+N 1530 -630 1600 -590 {
+lab=Vcn}
+N 1460 -620 1530 -620 {
+lab=Vcp}
+N 1530 -620 1600 -670 {
+lab=Vcp}
+N 1940 -480 1940 -330 {
+lab=#net5}
+N 1940 -950 1940 -790 {
+lab=#net8}
+N 1040 -710 1040 -650 {}
+N 950 -600 1040 -650 {}
+N 950 -600 950 -370 {}
+N 1040 -600 1040 -550 {}
+N 950 -650 1040 -600 {}
+N 950 -910 950 -650 {}
 C {madvlsi/nmos3.sym} 400 -330 1 0 {name=M1a
 L=0.5
 W=3
@@ -1441,7 +1469,6 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 1350 -750 1 0 {name=p8 sig_type=std_logic lab=Vbp}
 C {madvlsi/nmos3.sym} 1600 -330 1 0 {name=M1i
 L=0.5
 W=3
