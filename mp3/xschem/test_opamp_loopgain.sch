@@ -63,7 +63,7 @@ C {madvlsi/isource.sym} 100 -100 0 0 {name=I1
 value=22.62u}
 C {madvlsi/gnd.sym} 100 -70 0 0 {name=l5 lab=GND}
 C {madvlsi/vsource.sym} 490 -520 0 0 {name=V1Q
-value="0.6 AC 1"}
+value="0.8 AC 1"}
 C {devices/lab_pin.sym} 180 -310 0 0 {name=p5 sig_type=std_logic lab=V1Q}
 C {devices/lab_pin.sym} 490 -550 1 0 {name=p7 sig_type=std_logic lab=V1Q}
 C {madvlsi/gnd.sym} 490 -490 0 0 {name=l6 lab=GND}
@@ -109,7 +109,7 @@ C {madvlsi/isource.sym} 620 -100 0 0 {name=I2
 value=22.62u}
 C {madvlsi/gnd.sym} 620 -70 0 0 {name=l14 lab=GND}
 C {madvlsi/vsource.sym} 580 -520 0 0 {name=V1
-value="0.6 AC 1"}
+value="0.8 AC 1"}
 C {devices/lab_pin.sym} 700 -310 0 0 {name=p11 sig_type=std_logic lab=V1}
 C {devices/lab_pin.sym} 580 -550 1 0 {name=p12 sig_type=std_logic lab=V1}
 C {madvlsi/gnd.sym} 580 -490 0 0 {name=l15 lab=GND}

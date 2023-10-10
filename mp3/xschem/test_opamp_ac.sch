@@ -38,7 +38,7 @@ C {devices/lab_pin.sym} 300 -230 1 0 {name=p2 sig_type=std_logic lab=Vcp}
 C {devices/lab_pin.sym} 320 -210 1 0 {name=p3 sig_type=std_logic lab=Vcn}
 C {devices/lab_pin.sym} 340 -190 1 0 {name=p4 sig_type=std_logic lab=Vb}
 C {madvlsi/vsource.sym} 150 -390 0 0 {name=V1
-value="0.6 AC 1"}
+value="0.8 AC 1"}
 C {devices/lab_pin.sym} 360 -350 0 0 {name=p5 sig_type=std_logic lab=V1}
 C {devices/lab_pin.sym} 150 -420 1 0 {name=p7 sig_type=std_logic lab=V1}
 C {madvlsi/gnd.sym} 150 -360 0 0 {name=l6 lab=GND}
@@ -53,7 +53,14 @@ only_toplevel=false
 value=".option wnflag=1
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} 770 -250 0 0 {name=s1 only_toplevel=false value=".ac dec 20 1 1e12"}
+C {devices/code_shown.sym} 770 -250 0 0 {name=s1 only_toplevel=false value="
+.control
+ac dec 20 1 1e12
+run
+plot db(v(Vout)) cph(v(Vout))*360/2/pi
+set wr_singlescale
+set wr_vecnames
+.endc"}
 C {devices/lab_pin.sym} 280 -130 2 0 {name=p10 sig_type=std_logic lab=Vbp}
 C {madvlsi/capacitor.sym} 560 -300 0 0 {name=C1
 value=2p

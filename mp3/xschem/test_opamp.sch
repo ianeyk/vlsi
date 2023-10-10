@@ -28,9 +28,9 @@ C {devices/lab_pin.sym} 300 -230 1 0 {name=p2 sig_type=std_logic lab=Vcp}
 C {devices/lab_pin.sym} 320 -210 1 0 {name=p3 sig_type=std_logic lab=Vcn}
 C {devices/lab_pin.sym} 340 -190 1 0 {name=p4 sig_type=std_logic lab=Vb}
 C {madvlsi/vsource.sym} 150 -390 0 0 {name=V1
-value=0.6}
+value=0.8}
 C {madvlsi/vsource.sym} 250 -390 0 0 {name=V2
-value=0.6}
+value=0.8}
 C {devices/lab_pin.sym} 360 -350 0 0 {name=p5 sig_type=std_logic lab=V1}
 C {devices/lab_pin.sym} 360 -310 0 0 {name=p6 sig_type=std_logic lab=V2}
 C {devices/lab_pin.sym} 150 -420 1 0 {name=p7 sig_type=std_logic lab=V1}
@@ -54,5 +54,7 @@ C {devices/code_shown.sym} 580 -250 0 0 {name=s1 only_toplevel=false value="
 dc V1 0 3.0 0.001 V2 0 3.0 0.1
 run
 plot v(V1) v(V2) v(Vout)
+set wr_singlescale
+set wr_vecnames
 .endc"}
 C {devices/lab_pin.sym} 280 -130 2 0 {name=p10 sig_type=std_logic lab=Vbp}

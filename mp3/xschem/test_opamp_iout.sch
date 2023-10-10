@@ -34,7 +34,7 @@ C {devices/lab_pin.sym} 300 -230 1 0 {name=p2 sig_type=std_logic lab=Vcp}
 C {devices/lab_pin.sym} 320 -210 1 0 {name=p3 sig_type=std_logic lab=Vcn}
 C {devices/lab_pin.sym} 340 -190 1 0 {name=p4 sig_type=std_logic lab=Vb}
 C {madvlsi/vsource.sym} 150 -390 0 0 {name=V1
-value=0.6}
+value=0.8}
 C {madvlsi/vsource.sym} 250 -390 0 0 {name=V2
 value=0.8}
 C {devices/lab_pin.sym} 360 -350 0 0 {name=p5 sig_type=std_logic lab=V1}
