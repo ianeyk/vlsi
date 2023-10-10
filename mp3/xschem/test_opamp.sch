@@ -51,7 +51,7 @@ value=".option wnflag=1
 C {devices/code_shown.sym} 580 -250 0 0 {name=s1 only_toplevel=false value="
 *.dc V1 0 1.8 0.001 V2 0.8 1.6 0.2
 .control
-dc V1 0 1.8 0.001 V2 0 1.8 0.1
+dc V1 0 3.0 0.001 V2 0 3.0 0.1
 run
 plot v(V1) v(V2) v(Vout)
 .endc"}
