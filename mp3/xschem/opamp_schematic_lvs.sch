@@ -12,15 +12,15 @@ lab=Vnode}
 N 380 -200 380 -190 {
 lab=Vnode}
 N 110 -270 110 -260 {
-lab=M1top}
+lab=#net1}
 N 110 -270 380 -270 {
-lab=M1top}
+lab=#net1}
 N 380 -270 380 -260 {
-lab=M1top}
+lab=#net1}
 N 200 -270 200 -260 {
-lab=M1top}
+lab=#net1}
 N 290 -270 290 -260 {
-lab=M1top}
+lab=#net1}
 N 200 -200 200 -190 {
 lab=Vnode}
 N 290 -200 290 -190 {
@@ -62,11 +62,11 @@ lab=V2}
 N 540 -230 630 -230 {
 lab=V2}
 N 110 -60 110 -50 {
-lab=#net1}
+lab=GND}
 N 110 -50 380 -50 {
-lab=#net1}
+lab=GND}
 N 380 -60 380 -50 {
-lab=#net1}
+lab=GND}
 N 110 -130 110 -120 {
 lab=Vnode}
 N 110 -130 380 -130 {
@@ -78,9 +78,9 @@ lab=Vnode}
 N 290 -130 290 -120 {
 lab=Vnode}
 N 200 -60 200 -50 {
-lab=#net1}
+lab=GND}
 N 290 -60 290 -50 {
-lab=#net1}
+lab=GND}
 N 60 -90 80 -90 {
 lab=Vb}
 N 60 -90 170 -90 {
@@ -90,11 +90,11 @@ lab=Vb}
 N 260 -90 350 -90 {
 lab=Vb}
 N 510 -60 510 -50 {
-lab=#net1}
+lab=GND}
 N 510 -50 780 -50 {
-lab=#net1}
+lab=GND}
 N 780 -60 780 -50 {
-lab=#net1}
+lab=GND}
 N 510 -130 510 -120 {
 lab=Vnode}
 N 510 -130 780 -130 {
@@ -106,9 +106,9 @@ lab=Vnode}
 N 690 -130 690 -120 {
 lab=Vnode}
 N 600 -60 600 -50 {
-lab=#net1}
+lab=GND}
 N 690 -60 690 -50 {
-lab=#net1}
+lab=GND}
 N 570 -90 660 -90 {
 lab=Vb}
 N 660 -90 750 -90 {
@@ -120,7 +120,7 @@ lab=Vb}
 N 380 -130 510 -130 {
 lab=Vnode}
 N 380 -50 510 -50 {
-lab=#net1}
+lab=GND}
 N 1190 -190 1190 -180 {
 lab=#net2}
 N 1190 -180 1460 -180 {
@@ -174,11 +174,11 @@ lab=Vcn}
 N 1740 -220 1830 -220 {
 lab=Vcn}
 N 1190 -60 1190 -50 {
-lab=#net1}
+lab=GND}
 N 1190 -50 1460 -50 {
-lab=#net1}
+lab=GND}
 N 1460 -60 1460 -50 {
-lab=#net1}
+lab=GND}
 N 1190 -130 1190 -120 {
 lab=#net2}
 N 1190 -130 1460 -130 {
@@ -190,9 +190,9 @@ lab=#net2}
 N 1370 -130 1370 -120 {
 lab=#net2}
 N 1280 -60 1280 -50 {
-lab=#net1}
+lab=GND}
 N 1370 -60 1370 -50 {
-lab=#net1}
+lab=GND}
 N 1250 -90 1340 -90 {
 lab=#net3}
 N 1340 -90 1430 -90 {
@@ -204,15 +204,15 @@ lab=#net4}
 N 1860 -130 1860 -120 {
 lab=#net4}
 N 1590 -60 1590 -50 {
-lab=#net1}
+lab=GND}
 N 1590 -50 1860 -50 {
-lab=#net1}
+lab=GND}
 N 1860 -60 1860 -50 {
-lab=#net1}
+lab=GND}
 N 1680 -60 1680 -50 {
-lab=#net1}
+lab=GND}
 N 1770 -60 1770 -50 {
-lab=#net1}
+lab=GND}
 N 1680 -130 1680 -120 {
 lab=#net4}
 N 1770 -130 1770 -120 {
@@ -236,25 +236,25 @@ lab=#net3}
 N 1460 -360 1460 -350 {
 lab=#net3}
 N 1190 -430 1190 -420 {
-lab=M1top}
+lab=#net1}
 N 1190 -430 1460 -430 {
-lab=M1top}
+lab=#net1}
 N 1460 -430 1460 -420 {
-lab=M1top}
+lab=#net1}
 N 1280 -430 1280 -420 {
-lab=M1top}
+lab=#net1}
 N 1370 -430 1370 -420 {
-lab=M1top}
+lab=#net1}
 N 1280 -360 1280 -350 {
 lab=#net3}
 N 1370 -360 1370 -350 {
 lab=#net3}
 N 1190 -490 1190 -480 {
-lab=M1top}
+lab=#net1}
 N 1190 -480 1460 -480 {
-lab=M1top}
+lab=#net1}
 N 1460 -490 1460 -480 {
-lab=M1top}
+lab=#net1}
 N 1190 -560 1190 -550 {
 lab=VDD}
 N 1190 -560 1460 -560 {
@@ -262,9 +262,9 @@ lab=VDD}
 N 1460 -560 1460 -550 {
 lab=VDD}
 N 1280 -490 1280 -480 {
-lab=M1top}
+lab=#net1}
 N 1370 -490 1370 -480 {
-lab=M1top}
+lab=#net1}
 N 1280 -560 1280 -550 {
 lab=VDD}
 N 1370 -560 1370 -550 {
@@ -346,7 +346,7 @@ lab=Vnode}
 N 780 -190 780 -130 {
 lab=Vnode}
 N 1190 -480 1190 -430 {
-lab=M1top}
+lab=#net1}
 N 1190 -350 1190 -260 {
 lab=#net3}
 N 1190 -180 1190 -130 {
@@ -358,13 +358,13 @@ lab=Vout}
 N 1860 -180 1860 -130 {
 lab=#net4}
 N 1460 -50 1590 -50 {
-lab=#net1}
+lab=GND}
 N 1460 -560 1590 -560 {
 lab=VDD}
 N 780 -450 1860 -450 {
 lab=M2top}
 N 110 -460 1190 -460 {
-lab=M1top}
+lab=#net1}
 N 1160 -90 1250 -90 {
 lab=#net3}
 N 1060 -90 1160 -90 {
@@ -374,15 +374,15 @@ lab=#net3}
 N 1060 -300 1190 -300 {
 lab=#net3}
 N 780 -50 1190 -50 {
-lab=#net1}
+lab=GND}
 N 780 -340 780 -270 {
 lab=M2top}
 N 110 -340 110 -270 {
-lab=M1top}
+lab=#net1}
 N 780 -450 780 -340 {
 lab=M2top}
 N 110 -460 110 -340 {
-lab=M1top}
+lab=#net1}
 C {madvlsi/nmos3.sym} 110 -230 0 0 {name=M1a
 L=0.5
 W=3
@@ -1111,7 +1111,5 @@ C {devices/ipin.sym} 60 -230 0 0 {name=p5 lab=V1}
 C {devices/ipin.sym} 60 -90 0 0 {name=p6 lab=Vb}
 C {devices/opin.sym} 1860 -300 0 0 {name=p9 lab=Vout}
 C {devices/lab_pin.sym} 780 -160 2 0 {name=p10 sig_type=std_logic lab=Vnode}
-C {devices/lab_pin.sym} 780 -340 2 0 {name=p11 sig_type=std_logic lab=M2top}
-C {devices/lab_pin.sym} 110 -340 2 0 {name=p12 sig_type=std_logic lab=M1top}
 C {madvlsi/vdd.sym} 1530 -560 0 0 {name=l1 lab=VDD}
 C {madvlsi/gnd.sym} 1530 -50 0 0 {name=l2 lab=GND}
