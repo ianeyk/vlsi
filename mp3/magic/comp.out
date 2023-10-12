@@ -17,16 +17,9 @@ sky130_fd_pr__nfet_01v8 (40->10)           |sky130_fd_pr__nfet_01v8 (40->10)
 Number of devices: 15                      |Number of devices: 15                      
 Number of nets: 15                         |Number of nets: 15                         
 ---------------------------------------------------------------------------------------
-Netlists match uniquely with property errors.
-sky130_fd_pr__nfet_01v8:14 vs. sky130_fd_pr__nfet_01v8:Mba:
- w circuit1: 3   circuit2: 1.5   (delta=66.7%, cutoff=1%)
-sky130_fd_pr__nfet_01v8:40 vs. sky130_fd_pr__nfet_01v8:Mdbb:
- w circuit1: 3   circuit2: 1.5   (delta=66.7%, cutoff=1%)
+Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
 Device classes opamp.spice and opamp_xschem_lvs.spice are equivalent.
 
 Final result: Circuits match uniquely.
-Property errors were found.
-
-The following cells had property errors:
- opamp.spice
+.
