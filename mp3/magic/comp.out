@@ -6,20 +6,24 @@ Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalen
 Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell opamp_schematic_lvs in circuit opamp_bias_lvs.spice (0)(1 instance)
+Flattening unmatched subcell bias_schematic_lvs in circuit opamp_bias_lvs.spice (0)(1 instance)
+Flattening unmatched subcell opamp in circuit opamp_bias.spice (1)(1 instance)
+Flattening unmatched subcell bias in circuit opamp_bias.spice (1)(1 instance)
 
-Class bias_xschem_lvs.spice (0):  Merged 53 parallel devices.
-Class bias.spice (1):  Merged 53 parallel devices.
+Class opamp_bias_lvs.spice (0):  Merged 98 parallel devices.
+Class opamp_bias.spice (1):  Merged 98 parallel devices.
 Subcircuit summary:
-Circuit 1: bias_xschem_lvs.spice           |Circuit 2: bias.spice                      
+Circuit 1: opamp_bias_lvs.spice            |Circuit 2: opamp_bias.spice                
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (36->11)           |sky130_fd_pr__nfet_01v8 (36->11)           
-sky130_fd_pr__pfet_01v8 (40->12)           |sky130_fd_pr__pfet_01v8 (40->12)           
-Number of devices: 23                      |Number of devices: 23                      
-Number of nets: 16                         |Number of nets: 16                         
+sky130_fd_pr__nfet_01v8 (76->21)           |sky130_fd_pr__nfet_01v8 (76->21)           
+sky130_fd_pr__pfet_01v8 (60->17)           |sky130_fd_pr__pfet_01v8 (60->17)           
+Number of devices: 38                      |Number of devices: 38                      
+Number of nets: 25                         |Number of nets: 25                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
-Device classes bias_xschem_lvs.spice and bias.spice are equivalent.
+Device classes opamp_bias_lvs.spice and opamp_bias.spice are equivalent.
 
 Final result: Circuits match uniquely.
 .

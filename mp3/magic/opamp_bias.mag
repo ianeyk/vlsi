@@ -1,9 +1,8 @@
 magic
 tech sky130A
-timestamp 1697169675
+timestamp 1697171622
 << nwell >>
-rect 2895 900 3115 1570
-rect 2725 880 3115 900
+rect 2895 880 3115 1570
 rect 3020 875 3115 880
 << locali >>
 rect 2905 2415 3060 2435
@@ -76,4 +75,17 @@ use opamp  opamp_0
 timestamp 1697128104
 transform 1 0 3090 0 1 410
 box -70 -435 1410 2025
+<< labels >>
+flabel metal1 2970 1690 2970 1690 7 FreeSans 160 0 0 0 V1
+port 1 w
+flabel metal1 2970 2135 2970 2135 7 FreeSans 160 0 0 0 V2
+port 2 w
+flabel space 4500 600 4500 600 3 FreeSans 160 0 0 0 Vout
+port 3 e
+flabel space 25 875 25 875 7 FreeSans 160 0 0 0 Ib
+port 4 w
+flabel space 25 1255 25 1255 7 FreeSans 160 0 0 0 VP
+port 5 w
+flabel space 25 435 25 435 7 FreeSans 160 0 0 0 VN
+port 6 w
 << end >>
