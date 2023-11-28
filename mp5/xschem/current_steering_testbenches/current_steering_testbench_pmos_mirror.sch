@@ -5,6 +5,7 @@ K {}
 V {}
 S {}
 E {}
+T {Simulation Output Folder 2} 340 -340 0 0 0.3 0.3 {}
 N 10 -100 10 -80 {
 lab=#net1}
 N 10 -100 580 -100 {
@@ -33,19 +34,39 @@ N -130 -30 -120 -30 {
 lab=#net5}
 N -120 -80 -120 -30 {
 lab=#net5}
-N 580 -140 580 -130 {
-lab=#net2}
-N 640 -140 640 -100 {
-lab=#net1}
-N 580 -100 640 -100 {
-lab=#net1}
 N -150 140 500 140 {
 lab=#net6}
+N 580 -160 580 -130 {
+lab=#net2}
+N 610 -190 650 -190 {
+lab=#net2}
+N 580 -150 630 -150 {
+lab=#net2}
+N 630 -190 630 -150 {
+lab=#net2}
+N 830 -160 830 -100 {
+lab=#net1}
+N 580 -100 830 -100 {
+lab=#net1}
+N 860 -190 900 -190 {
+lab=#net1}
+N 880 -190 880 -150 {
+lab=#net1}
+N 830 -150 880 -150 {
+lab=#net1}
+N 680 -160 680 -70 {
+lab=#net7}
+N 930 -160 930 -70 {
+lab=#net8}
+N 680 -60 680 -40 {
+lab=GND}
+N 930 -60 930 -40 {
+lab=GND}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 0 -10 0 0 {name=x1}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 170 -10 0 0 {name=x2}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 330 -10 0 0 {name=x3}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 500 -10 0 0 {name=x4}
-C {devices/code.sym} 595 -335 0 0 {name="CONTROL CODE" only_toplevel=false value=".save all
+C {devices/code.sym} 355 -285 0 0 {name="CONTROL CODE" only_toplevel=false value=".save all
 .control
 set wr_vecnames
 set wr_singlescale
@@ -68,7 +89,7 @@ dowhile run <= mc_runs
     save all
     op
     
-    wrdata ~/dev/git/vlsi/mp5/simulations/current_steering_dac/1/ieeeDAC_\{$&run\}.txt code v(D1) v(D1b) i(VIin) i(VIdump)
+    wrdata ~/dev/git/vlsi/mp5/simulations/current_steering_dac/2/ieeeDAC_\{$&run\}.txt code v(D1) v(D1b) i(VIin) i(VIdump)
     if code eq 0
       set appendwrite
       set wr_vecnames = FALSE
@@ -109,10 +130,10 @@ C {madvlsi/vdd.sym} -170 -50 0 0 {name=l12 lab=VDD}
 C {madvlsi/isource.sym} -120 -110 2 0 {name=I1
 value=10u}
 C {madvlsi/gnd.sym} -120 -140 2 0 {name=l13 lab=GND}
-C {madvlsi/ammeter1.sym} 580 -150 0 0 {name=VIin}
-C {madvlsi/ammeter1.sym} 640 -150 0 0 {name=VIdump}
-C {madvlsi/vdd.sym} 580 -150 0 0 {name=l14 lab=VDD}
-C {madvlsi/vdd.sym} 640 -150 0 0 {name=l15 lab=VDD}
+C {madvlsi/ammeter1.sym} 680 -70 0 0 {name=VIin}
+C {madvlsi/ammeter1.sym} 930 -70 0 0 {name=VIdump}
+C {madvlsi/vdd.sym} 580 -220 0 0 {name=l14 lab=VDD}
+C {madvlsi/vdd.sym} 930 -220 0 0 {name=l15 lab=VDD}
 C {devices/lab_pin.sym} -60 -10 0 0 {name=p5 sig_type=std_logic lab=D1}
 C {devices/lab_pin.sym} 110 -10 0 0 {name=p6 sig_type=std_logic lab=D2}
 C {devices/lab_pin.sym} 270 -10 0 0 {name=p7 sig_type=std_logic lab=D3}
@@ -135,17 +156,81 @@ C {devices/lab_pin.sym} -60 -30 0 0 {name=p17 sig_type=std_logic lab=D1b}
 C {devices/lab_pin.sym} 110 -30 0 0 {name=p18 sig_type=std_logic lab=D2b}
 C {devices/lab_pin.sym} 270 -30 0 0 {name=p19 sig_type=std_logic lab=D3b}
 C {devices/lab_pin.sym} 440 -30 0 0 {name=p20 sig_type=std_logic lab=D4b}
-C {madvlsi/vsource.sym} 310 -280 0 0 {name=Vdd
+C {madvlsi/vsource.sym} 70 -230 0 0 {name=Vdd
 value=1.8}
-C {madvlsi/vdd.sym} 310 -310 0 0 {name=l22 lab=VDD}
-C {madvlsi/gnd.sym} 310 -250 0 0 {name=l23 lab=GND}
+C {madvlsi/vdd.sym} 70 -260 0 0 {name=l22 lab=VDD}
+C {madvlsi/gnd.sym} 70 -200 0 0 {name=l23 lab=GND}
 C {madvlsi/vsource.sym} -150 170 0 0 {name=Vinverter
 value=1.8}
 C {madvlsi/gnd.sym} -150 200 0 0 {name=l25 lab=GND}
-C {madvlsi/tt_models.sym} 430 -330 0 0 {
+C {madvlsi/tt_models.sym} 190 -280 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
 .param MC_SWITCH=1.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
+C {madvlsi/pmos3.sym} 580 -190 0 1 {name=M1
+L=0.5
+W=12
+body=VDD
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {madvlsi/pmos3.sym} 830 -190 0 1 {name=M2
+L=0.5
+W=12
+body=VDD
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {madvlsi/pmos3.sym} 680 -190 0 0 {name=M3
+L=0.5
+W=12
+body=VDD
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {madvlsi/vdd.sym} 680 -220 0 0 {name=l2 lab=VDD}
+C {madvlsi/pmos3.sym} 930 -190 0 0 {name=M4
+L=0.5
+W=12
+body=VDD
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {madvlsi/vdd.sym} 830 -220 0 0 {name=l17 lab=VDD}
+C {madvlsi/gnd.sym} 680 -40 0 0 {name=l19 lab=GND}
+C {madvlsi/gnd.sym} 930 -40 0 0 {name=l21 lab=GND}
