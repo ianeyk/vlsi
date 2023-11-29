@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Simulation Output Folder 3} 340 -470 0 0 0.3 0.3 {}
+T {Simulation Output Folder 4} 340 -470 0 0 0.3 0.3 {}
 N -340 -170 -330 -170 {
 lab=#net1}
 N -330 -220 -330 -170 {
@@ -41,97 +41,97 @@ lab=#net2}
 N -80 -30 -60 -30 {
 lab=#net10}
 N -80 -10 -60 -10 {
-lab=#net11}
+lab=D1}
 N 190 -30 210 -30 {
-lab=#net12}
+lab=#net11}
 N 190 -10 210 -10 {
-lab=#net13}
+lab=D5}
 N 460 -30 480 -30 {
-lab=#net14}
+lab=#net12}
 N 460 -10 480 -10 {
-lab=#net15}
+lab=#net13}
 N 730 -30 750 -30 {
-lab=#net16}
+lab=#net14}
 N 730 -10 750 -10 {
-lab=#net17}
+lab=#net15}
 N -80 190 -60 190 {
-lab=#net18}
+lab=#net16}
 N -80 210 -60 210 {
-lab=#net19}
+lab=D2}
 N 190 190 210 190 {
-lab=#net20}
+lab=#net17}
 N 190 210 210 210 {
-lab=#net21}
+lab=#net18}
 N 460 190 480 190 {
-lab=#net22}
+lab=#net19}
 N 460 210 480 210 {
-lab=#net23}
+lab=#net20}
 N 730 190 750 190 {
-lab=#net24}
+lab=#net21}
 N 730 210 750 210 {
-lab=#net25}
+lab=#net22}
 N -80 410 -60 410 {
-lab=#net26}
+lab=#net23}
 N -80 430 -60 430 {
-lab=#net27}
+lab=D3}
 N 190 410 210 410 {
-lab=#net28}
+lab=#net24}
 N 190 430 210 430 {
-lab=#net29}
+lab=#net25}
 N 460 410 480 410 {
-lab=#net30}
+lab=#net26}
 N 460 430 480 430 {
-lab=#net31}
+lab=#net27}
 N 730 410 750 410 {
-lab=#net32}
+lab=#net28}
 N 730 430 750 430 {
-lab=#net33}
+lab=#net29}
 N -80 620 -60 620 {
-lab=#net34}
+lab=#net30}
 N -80 640 -60 640 {
-lab=#net35}
+lab=D4}
 N 190 620 210 620 {
-lab=#net36}
+lab=#net31}
 N 190 640 210 640 {
-lab=#net37}
+lab=#net32}
 N 460 620 480 620 {
-lab=#net38}
+lab=#net33}
 N 460 640 480 640 {
-lab=#net39}
+lab=#net34}
 N 730 620 750 620 {
-lab=#net40}
+lab=#net35}
 N 730 640 750 640 {
-lab=#net41}
+lab=#net36}
 N -230 -20 600 -20 {
-lab=Y1}
+lab=Y0}
 N -230 200 600 200 {
-lab=Y2}
+lab=Y1}
 N -230 420 600 420 {
-lab=Y3}
+lab=Y2}
 N -230 630 600 630 {
-lab=Y4}
+lab=Y3}
 N -170 -120 -170 580 {
-lab=X1}
+lab=X0}
 N 100 -120 100 580 {
-lab=X2}
+lab=X1}
 N 370 -120 370 580 {
-lab=X3}
-N 640 -120 640 580 {
-lab=X4}
-N -150 -120 -150 580 {
 lab=X2}
-N 120 -120 120 580 {
+N 640 -120 640 580 {
 lab=X3}
+N -150 -120 -150 580 {
+lab=X1}
+N 120 -120 120 580 {
+lab=X2}
 N 390 -120 390 580 {
-lab=X4}
+lab=X3}
 N 660 -120 660 580 {
-lab=X5}
+lab=GND}
 N -10 -180 960 -180 {
 lab=#net2}
 N -10 -180 -10 570 {
 lab=#net2}
 N 10 -160 10 570 {
-lab=#net42}
+lab=#net3}
 N 260 -180 260 570 {
 lab=#net2}
 N 530 -180 530 570 {
@@ -139,49 +139,51 @@ lab=#net2}
 N 800 -180 800 570 {
 lab=#net2}
 N 280 -160 280 570 {
-lab=#net42}
+lab=#net3}
 N 550 -160 550 570 {
-lab=#net42}
+lab=#net3}
 N 820 -160 820 570 {
-lab=#net42}
+lab=#net3}
 N 10 -160 960 -160 {
-lab=#net42}
+lab=#net3}
 N -280 10 750 10 {
-lab=#net43}
+lab=#net37}
 N -280 230 750 230 {
-lab=#net43}
+lab=#net37}
 N -280 450 750 450 {
-lab=#net43}
+lab=#net37}
 N -300 -40 -300 680 {
-lab=#net44}
+lab=#net38}
 N -280 660 750 660 {
-lab=#net43}
+lab=#net37}
 N -300 680 750 680 {
-lab=#net44}
+lab=#net38}
 N -300 470 750 470 {
-lab=#net44}
+lab=#net38}
 N -300 250 750 250 {
-lab=#net44}
+lab=#net38}
 N -300 30 750 30 {
-lab=#net44}
+lab=#net38}
 N -280 -40 -280 660 {
-lab=#net43}
+lab=#net37}
 N -340 -110 -300 -110 {
-lab=#net44}
+lab=#net38}
 N -300 -110 -300 -40 {
-lab=#net44}
+lab=#net38}
 N -340 -130 -280 -130 {
-lab=#net43}
+lab=#net37}
 N -280 -130 -280 -40 {
-lab=#net43}
+lab=#net37}
 N 960 -180 1180 -180 {
 lab=#net2}
 N 960 -160 1430 -160 {
-lab=#net42}
+lab=#net3}
 N 1430 -210 1430 -160 {
-lab=#net42}
-N 920 -470 920 -410 {
-lab=GND}
+lab=#net3}
+N 1430 -160 1480 -160 {
+lab=#net3}
+N 1480 -320 1480 -160 {
+lab=#net3}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 0 -10 0 0 {name=x1}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 270 -10 0 0 {name=x2}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/current_steering_cell.sym} 540 -10 0 0 {name=x3}
@@ -191,25 +193,198 @@ C {devices/code.sym} 355 -415 0 0 {name="CONTROL CODE" only_toplevel=false value
 set wr_vecnames
 set wr_singlescale
 
-let mc_runs = 10
+let mc_runs = 1
 let run = 1
 dowhile run <= mc_runs
 
   let code = 0
-  while code <= 4
-    let d1 = code >= 1
-    let d2 = code >= 2
-    let d3 = code >= 3
-    let d4 = code >= 4
-    
-    alter V1 $&d1
-    alter V2 $&d2
-    alter V3 $&d3
-    alter V4 $&d4
+  while code <= 16
+
+    if code eq 0
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 1 * 1.8
+      let x0 = 0 * 1.8
+      let x1 = 0 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 1
+      let y0 = 1 * 1.8
+      let y1 = 0 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 0 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 2
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 0 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 3
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 0 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 4
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 1 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 0 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 5
+      let y0 = 1 * 1.8
+      let y1 = 0 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 6
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 7
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 8
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 1 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 0 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 9
+      let y0 = 1 * 1.8
+      let y1 = 0 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 10
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 11
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 12
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 1 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 0 * 1.8
+    end
+    if code eq 13
+      let y0 = 1 * 1.8
+      let y1 = 0 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 1 * 1.8
+    end
+    if code eq 14
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 0 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 1 * 1.8
+    end
+    if code eq 15
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 0 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 1 * 1.8
+    end
+    if code eq 16
+      let y0 = 1 * 1.8
+      let y1 = 1 * 1.8
+      let y2 = 1 * 1.8
+      let y3 = 1 * 1.8
+      let x0 = 1 * 1.8
+      let x1 = 1 * 1.8
+      let x2 = 1 * 1.8
+      let x3 = 1 * 1.8
+    end
+
+    alter V0 $&x0
+    alter V1 $&x1
+    alter V2 $&x2
+    alter V3 $&x3
+    alter V4 $&y0
+    alter V5 $&y1
+    alter V6 $&y2
+    alter V7 $&y3
+
+
     save all
     op
     
-    wrdata ~/dev/git/vlsi/mp5/simulations/current_steering_dac/3/ieeeDAC_\{$&run\}.txt code v(D1) v(D1b) i(VIin) i(VIdump)
+    wrdata ~/dev/git/vlsi/mp5/simulations/current_steering_dac/4/ieeeDAC_\{$&run\}.txt code v(D1) v(D2) v(D3) v(D4) v(D5) i(VIin) i(VIdump)
     if code eq 0
       set appendwrite
       set wr_vecnames = FALSE
@@ -222,21 +397,20 @@ dowhile run <= mc_runs
   let run = run + 1
 end
 .endc"}
-C {madvlsi/gnd.sym} 610 -410 0 0 {name=l3 lab=GND}
-C {devices/lab_pin.sym} 610 -470 1 0 {name=p1 sig_type=std_logic lab=X1}
-C {madvlsi/vsource.sym} 610 -440 0 0 {name=V1
+C {madvlsi/gnd.sym} 690 -410 0 0 {name=l3 lab=GND}
+C {devices/lab_pin.sym} 690 -470 1 0 {name=p1 sig_type=std_logic lab=X1}
+C {madvlsi/vsource.sym} 690 -440 0 0 {name=V1
 value=1.8}
-C {madvlsi/gnd.sym} 690 -410 0 0 {name=l4 lab=GND}
-C {devices/lab_pin.sym} 690 -470 1 0 {name=p2 sig_type=std_logic lab=X2}
-C {madvlsi/vsource.sym} 690 -440 0 0 {name=V2
+C {madvlsi/gnd.sym} 770 -410 0 0 {name=l4 lab=GND}
+C {devices/lab_pin.sym} 770 -470 1 0 {name=p2 sig_type=std_logic lab=X2}
+C {madvlsi/vsource.sym} 770 -440 0 0 {name=V2
 value=1.8}
-C {madvlsi/gnd.sym} 770 -410 0 0 {name=l5 lab=GND}
-C {devices/lab_pin.sym} 770 -470 1 0 {name=p3 sig_type=std_logic lab=X3}
-C {madvlsi/vsource.sym} 770 -440 0 0 {name=V3
+C {madvlsi/gnd.sym} 850 -410 0 0 {name=l5 lab=GND}
+C {devices/lab_pin.sym} 850 -470 1 0 {name=p3 sig_type=std_logic lab=X3}
+C {madvlsi/vsource.sym} 850 -440 0 0 {name=V3
 value=1.8}
-C {madvlsi/gnd.sym} 850 -410 0 0 {name=l6 lab=GND}
-C {devices/lab_pin.sym} 850 -470 1 0 {name=p4 sig_type=std_logic lab=X4}
-C {madvlsi/vsource.sym} 850 -440 0 0 {name=V4
+C {madvlsi/gnd.sym} 610 -270 0 0 {name=l6 lab=GND}
+C {madvlsi/vsource.sym} 610 -300 0 0 {name=V4
 value=1.8}
 C {madvlsi/gnd.sym} 0 60 0 0 {name=l7 lab=GND}
 C {madvlsi/gnd.sym} 270 60 0 0 {name=l8 lab=GND}
@@ -246,7 +420,7 @@ C {/home/madvlsi/dev/git/vlsi/mp5/xschem/other_project_files/bias_schematic.sym}
 C {madvlsi/gnd.sym} -380 -90 0 0 {name=l11 lab=GND}
 C {madvlsi/vdd.sym} -380 -190 0 0 {name=l12 lab=VDD}
 C {madvlsi/isource.sym} -330 -250 2 0 {name=I1
-value=10u}
+value=500n}
 C {madvlsi/gnd.sym} -330 -280 2 0 {name=l13 lab=GND}
 C {madvlsi/ammeter1.sym} 1280 -120 0 0 {name=VIin}
 C {madvlsi/ammeter1.sym} 1530 -120 0 0 {name=VIdump}
@@ -461,32 +635,38 @@ C {madvlsi/gnd.sym} 410 710 0 0 {name=l61 lab=GND}
 C {/home/madvlsi/dev/git/vlsi/mp5/xschem/unit_cell_decoder.sym} 680 630 0 0 {name=x33}
 C {madvlsi/vdd.sym} 680 580 0 0 {name=l62 lab=VDD}
 C {madvlsi/gnd.sym} 680 710 0 0 {name=l63 lab=GND}
-C {devices/lab_pin.sym} -170 -120 1 0 {name=p5 sig_type=std_logic lab=X1}
-C {devices/lab_pin.sym} 100 -120 1 0 {name=p6 sig_type=std_logic lab=X2}
-C {devices/lab_pin.sym} 370 -120 1 0 {name=p7 sig_type=std_logic lab=X3}
-C {devices/lab_pin.sym} 640 -120 1 0 {name=p8 sig_type=std_logic lab=X4}
-C {devices/lab_pin.sym} -150 -120 1 0 {name=p9 sig_type=std_logic lab=X2}
-C {devices/lab_pin.sym} 120 -120 1 0 {name=p10 sig_type=std_logic lab=X3}
-C {devices/lab_pin.sym} 390 -120 1 0 {name=p11 sig_type=std_logic lab=X4}
-C {madvlsi/gnd.sym} 920 -410 0 0 {name=l64 lab=GND}
-C {devices/lab_pin.sym} 920 -470 1 0 {name=p12 sig_type=std_logic lab=X5}
-C {devices/lab_pin.sym} 660 -120 1 0 {name=p13 sig_type=std_logic lab=X5}
-C {madvlsi/gnd.sym} 610 -260 0 0 {name=l65 lab=GND}
-C {devices/lab_pin.sym} 610 -320 1 0 {name=p14 sig_type=std_logic lab=Y1}
-C {madvlsi/vsource.sym} 610 -290 0 0 {name=V5
+C {devices/lab_pin.sym} 100 -120 1 0 {name=p5 sig_type=std_logic lab=X1}
+C {devices/lab_pin.sym} 370 -120 1 0 {name=p6 sig_type=std_logic lab=X2}
+C {devices/lab_pin.sym} 640 -120 1 0 {name=p7 sig_type=std_logic lab=X3}
+C {devices/lab_pin.sym} 120 -120 1 0 {name=p9 sig_type=std_logic lab=X2}
+C {devices/lab_pin.sym} 390 -120 1 0 {name=p10 sig_type=std_logic lab=X3}
+C {madvlsi/gnd.sym} 690 -270 0 0 {name=l65 lab=GND}
+C {devices/lab_pin.sym} 610 -330 1 0 {name=p14 sig_type=std_logic lab=Y0}
+C {madvlsi/vsource.sym} 690 -300 0 0 {name=V5
 value=1.8}
-C {madvlsi/gnd.sym} 690 -260 0 0 {name=l66 lab=GND}
-C {devices/lab_pin.sym} 690 -320 1 0 {name=p15 sig_type=std_logic lab=Y2}
-C {madvlsi/vsource.sym} 690 -290 0 0 {name=V6
+C {madvlsi/gnd.sym} 770 -270 0 0 {name=l66 lab=GND}
+C {devices/lab_pin.sym} 690 -330 1 0 {name=p15 sig_type=std_logic lab=Y1}
+C {madvlsi/vsource.sym} 770 -300 0 0 {name=V6
 value=1.8}
-C {madvlsi/gnd.sym} 770 -260 0 0 {name=l67 lab=GND}
-C {devices/lab_pin.sym} 770 -320 1 0 {name=p16 sig_type=std_logic lab=Y3}
-C {madvlsi/vsource.sym} 770 -290 0 0 {name=V7
+C {madvlsi/gnd.sym} 850 -270 0 0 {name=l67 lab=GND}
+C {devices/lab_pin.sym} 770 -330 1 0 {name=p16 sig_type=std_logic lab=Y2}
+C {madvlsi/vsource.sym} 850 -300 0 0 {name=V7
 value=1.8}
-C {madvlsi/gnd.sym} 850 -260 0 0 {name=l68 lab=GND}
-C {devices/lab_pin.sym} -230 630 0 0 {name=p17 sig_type=std_logic lab=Y4}
-C {madvlsi/vsource.sym} 850 -290 0 0 {name=V8
+C {devices/lab_pin.sym} -230 630 0 0 {name=p17 sig_type=std_logic lab=Y3}
+C {devices/lab_pin.sym} -230 -20 0 0 {name=p18 sig_type=std_logic lab=Y0
+}
+C {devices/lab_pin.sym} -230 200 0 0 {name=p19 sig_type=std_logic lab=Y1}
+C {devices/lab_pin.sym} -230 420 0 0 {name=p20 sig_type=std_logic lab=Y2}
+C {madvlsi/gnd.sym} 610 -410 0 0 {name=l68 lab=GND}
+C {devices/lab_pin.sym} 610 -470 1 0 {name=p23 sig_type=std_logic lab=X0}
+C {madvlsi/vsource.sym} 610 -440 0 0 {name=V0
 value=1.8}
-C {devices/lab_pin.sym} -230 -20 0 0 {name=p18 sig_type=std_logic lab=Y1}
-C {devices/lab_pin.sym} -230 200 0 0 {name=p19 sig_type=std_logic lab=Y2}
-C {devices/lab_pin.sym} -230 420 0 0 {name=p20 sig_type=std_logic lab=Y3}
+C {devices/lab_pin.sym} 850 -330 1 0 {name=p4 sig_type=std_logic lab=Y3}
+C {madvlsi/gnd.sym} 660 -120 2 0 {name=l64 lab=GND}
+C {devices/lab_pin.sym} -150 -120 1 0 {name=p8 sig_type=std_logic lab=X1}
+C {devices/lab_pin.sym} -170 -120 1 0 {name=p11 sig_type=std_logic lab=X0}
+C {devices/lab_pin.sym} -70 -10 1 0 {name=p12 sig_type=std_logic lab=D1}
+C {devices/lab_pin.sym} -70 210 1 0 {name=p13 sig_type=std_logic lab=D2}
+C {devices/lab_pin.sym} -70 430 1 0 {name=p24 sig_type=std_logic lab=D3}
+C {devices/lab_pin.sym} -70 640 1 0 {name=p25 sig_type=std_logic lab=D4}
+C {devices/lab_pin.sym} 200 -10 1 0 {name=p26 sig_type=std_logic lab=D5}
